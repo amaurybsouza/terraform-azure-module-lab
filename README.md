@@ -1,2 +1,11 @@
 # terraform-azure-module-lab
-basic test
+
+- Infraestrutura como código: O Terraform permite definir sua infraestrutura como código, o que significa que você pode descrever sua infraestrutura em arquivos de configuração. Isso traz benefícios significativos, como versionamento, rastreabilidade e automação. Você pode usar a linguagem declarativa do Terraform para descrever a infraestrutura desejada e o Terraform cuidará de criar, modificar ou destruir os recursos necessários no Azure.
+
+- Multi-cloud e portabilidade: O Terraform é um provisionador de infraestrutura multi-cloud, o que significa que ele suporta vários provedores de nuvem, incluindo o Azure. Isso permite que você escreva o código de infraestrutura uma vez e o execute em diferentes provedores de nuvem, fornecendo portabilidade e flexibilidade.
+
+- Gerenciamento de estado: O Terraform mantém um arquivo de estado que registra o estado atual da infraestrutura provisionada. Ele rastreia os recursos criados e suas dependências, permitindo que você gerencie e atualize sua infraestrutura de forma segura e previsível. O estado do Terraform também é útil para planejar alterações, detectar drifts e colaborar com equipes.
+
+- Ecossistema e comunidade: O Terraform tem uma comunidade ativa e um ecossistema vibrante, com muitos módulos e provedores disponíveis para o Azure. Você pode aproveitar módulos pré-construídos para provisionar recursos comuns do Azure, como máquinas virtuais, bancos de dados, redes e muito mais. Além disso, a comunidade Terraform está sempre compartilhando experiências, práticas recomendadas e soluções para problemas comuns.
+
+- Integração com outras ferramentas: O Terraform se integra bem com outras ferramentas e práticas comuns de DevOps, como controle de versão (por exemplo, Git), pipelines de CI/CD (por exemplo, Azure DevOps, Jenkins), gerenciamento de configuração (por exemplo, Ansible, Chef, Puppet) e orquestração de contêineres (por exemplo, Kubernetes). Isso permite a criação de pipelines de entrega contínua completos e automatizados para provisionar e gerenciar a infraestrutura no Azure.
